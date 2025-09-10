@@ -1,1 +1,191 @@
 # mythical-security
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Mythical Security</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: url('https://i.ibb.co/6n8kL6M/city-night.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #e0e0e0;
+      font-family: 'Orbitron', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #0ff;
+      text-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 6px 0;
+      padding: 10px;
+      background: rgba(20,20,20,0.85);
+      border-radius: 10px;
+      border: 1px solid #0ff;
+      box-shadow: 0 0 10px #0ff inset, 0 0 15px #0ff;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+    li:hover {
+      background: rgba(0,255,255,0.15);
+      box-shadow: 0 0 20px #0ff inset, 0 0 25px #0ff;
+    }
+    .jobs {
+      margin-top: 40px;
+      padding: 20px;
+      border: 2px solid #ff0077;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 15px #ff0077, 0 0 30px #ff0077;
+      background: rgba(10,10,10,0.9);
+    }
+    .jobs h2 {
+      color: #ff0077;
+      text-shadow: 0 0 10px #ff0077, 0 0 20px #ff0077;
+    }
+    button {
+      margin-top: 15px;
+      background: #111;
+      border: 2px solid #0ff;
+      color: #0ff;
+      padding: 12px 25px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+      box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+    }
+    button:hover {
+      background: #0ff;
+      color: #111;
+      box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mythical Security</h1>
+  
+  <ul>
+    <li>Το Mythical Security δεν είναι ένα συνηθισμένο security.</li>
+    <li>Είναι μια ετοιμοπόλεμη ομάδα που προσφέρει πλήρεις υπηρεσίες ασφαλείας:</li>
+    <!-- 100 δραστηριότητες -->
+    <li>1) Πουλάμε vests και όπλα</li>
+    <li>2) Πουλάμε προστασία σε μαγαζιά</li>
+    <li>3) Συνοδεία VIP</li>
+    <li>4) Συνεργασία με την αστυνομία</li>
+    <li>5) Μεταφέρουμε σημαντικά φορτία όπως βαλίτσες χρημάτων και συμβόλαια</li>
+    <li>6) Παρέχουμε προστασία σε προσωπικά event</li>
+    <li>7) Παρακολουθούμε ύποπτες δραστηριότητες σε περιοχές υψηλού κινδύνου</li>
+    <li>8) Υποστηρίζουμε μεταφορές VIP πελατών σε αποστολές υψηλής ασφαλείας</li>
+    <li>9) Παρέχουμε εκπαίδευση προσωπικού για combat & tactical situations</li>
+    <li>10) Συνεργαζόμαστε με εταιρείες για security audits και risk management</li>
+    <li>11) Οργανώνουμε περιπολίες σε περιοχές RP για ασφαλή ζώνη</li>
+    <li>12) Παρέχουμε VIP οχήματα ασφαλείας για μεταφορές</li>
+    <li>13) Συλλέγουμε πληροφορίες για RP επιχειρήσεις και επικίνδυνους NPCs</li>
+    <li>14) Παρέχουμε υποστήριξη κατά τη διάρκεια bank/robbery αποστολών</li>
+    <li>15) Προσφέρουμε training sessions για νέα μέλη και RP coordination</li>
+    <li>16) Παρέχουμε άμεση ανταπόκριση σε RP εκτάκτους κινδύνους και επεισόδια</li>
+    <li>17) Οργανώνουμε στρατηγικά roadblocks σε RP events</li>
+    <li>18) Διαχειριζόμαστε high-value cargo μεταφορές με ασφάλεια</li>
+    <li>19) Εκπαιδεύουμε μέλη σε stealth και tactical RP operations</li>
+    <li>20) Συνεργαζόμαστε με άλλες ομάδες για μεγάλα RP missions</li>
+    <li>21) Παρέχουμε υποστήριξη στην επικοινωνία και coordination πελατών</li>
+    <li>22) Οργανώνουμε mock drills για εκπαίδευση προσωπικού</li>
+    <li>23) Παρέχουμε RP escort services για celebrities και VIPs</li>
+    <li>24) Εκτελούμε VIP extraction missions σε επικίνδυνες περιοχές</li>
+    <li>25) Παρέχουμε εξοπλισμό surveillance για RP επιχειρήσεις</li>
+    <li>26) Υποστηρίζουμε RP hostage negotiations</li>
+    <li>27) Εκτελούμε tactical reconnaissance missions</li>
+    <li>28) Παρέχουμε cybersecurity support για RP εταιρείες</li>
+    <li>29) Συντονίζουμε RP patrols σε high-crime zones</li>
+    <li>30) Παρέχουμε stealth operations κατά RP επιθέσεων</li>
+    <li>31) Προσφέρουμε covert escort για VIP</li>
+    <li>32) Εκπαιδεύουμε μέλη σε hand-to-hand combat</li>
+    <li>33) Παρέχουμε sniper support κατά RP conflicts</li>
+    <li>34) Οργανώνουμε RP evacuation plans</li>
+    <li>35) Συντονίζουμε tactical RP drills</li>
+    <li>36) Παρέχουμε armored vehicle support</li>
+    <li>37) Συλλέγουμε intelligence για RP gangs</li>
+    <li>38) Παρέχουμε RP communication hubs</li>
+    <li>39) Εκπαιδεύουμε σε first aid για RP incidents</li>
+    <li>40) Παρέχουμε RP traffic control</li>
+    <li>41) Συμβουλευτικές υπηρεσίες για RP risk assessment</li>
+    <li>42) Παρέχουμε tactical gear rental για RP missions</li>
+    <li>43) Υποστήριξη RP surveillance drones</li>
+    <li>44) Παρέχουμε RP security badges & IDs</li>
+    <li>45) Παρέχουμε armored escort για RP transports</li>
+    <li>46) Παρέχουμε VIP bodyguard teams</li>
+    <li>47) Εκπαιδεύουμε νέα μέλη σε weapons handling</li>
+    <li>48) Παρέχουμε covert RP intelligence gathering</li>
+    <li>49) Παρέχουμε tactical RP briefings</li>
+    <li>50) Υποστήριξη RP coordination για events</li>
+    <li>51) Παρέχουμε RP perimeter security</li>
+    <li>52) Παρέχουμε emergency extraction για VIP</li>
+    <li>53) Συμβουλευτικές υπηρεσίες RP conflict resolution</li>
+    <li>54) Παρέχουμε RP armored truck escort</li>
+    <li>55) Οργανώνουμε RP security patrol shifts</li>
+    <li>56) Παρέχουμε RP sniper overwatch</li>
+    <li>57) Παρέχουμε undercover RP ops</li>
+    <li>58) Παρέχουμε RP crowd control</li>
+    <li>59) Παρέχουμε RP access control</li>
+    <li>60) Παρέχουμε RP VIP logistics support</li>
+    <li>61) Παρέχουμε RP alarm response teams</li>
+    <li>62) Παρέχουμε RP rapid deployment units</li>
+    <li>63) Παρέχουμε RP tactical simulations</li>
+    <li>64) Παρέχουμε RP high-value escort training</li>
+    <li>65) Παρέχουμε RP armored response drills</li>
+    <li>66) Παρέχουμε RP negotiation support</li>
+    <li>67) Παρέχουμε RP asset protection</li>
+    <li>68) Παρέχουμε RP perimeter defense drills</li>
+    <li>69) Παρέχουμε RP intelligence coordination</li>
+    <li>70) Παρέχουμε RP emergency response planning</li>
+    <li>71) Παρέχουμε RP hostage extraction drills</li>
+    <li>72) Παρέχουμε RP VIP secure transport</li>
+    <li>73) Παρέχουμε RP vehicle escort training</li>
+    <li>74) Παρέχουμε RP city patrol coordination</li>
+    <li>75) Παρέχουμε RP armored vehicle drills</li>
+    <li>76) Παρέχουμε RP tactical planning sessions</li>
+    <li>77) Παρέχουμε RP scenario simulations</li>
+    <li>78) Παρέχουμε RP security debriefs</li>
+    <li>79) Παρέχουμε RP emergency communication</li>
+    <li>80) Παρέχουμε RP advanced surveillance</li>
+    <li>81) Παρέχουμε RP stealth training</li>
+    <li>82) Παρέχουμε RP VIP risk assessment</li>
+    <li>83) Παρέχουμε RP asset tracking</li>
+    <li>84) Παρέχουμε RP armored transport drills</li>
+    <li>85) Παρέχουμε RP perimeter sweep</li>
+    <li>86) Παρέχουμε RP conflict monitoring</li>
+    <li>87) Παρέχουμε RP VIP logistics coordination</li>
+    <li>88) Παρέχουμε RP emergency scenario drills</li>
+    <li>89) Παρέχουμε RP tactical response units</li>
+    <li>90) Παρέχουμε RP risk mitigation strategies</li>
+    <li>91) Παρέχουμε RP covert observation</li>
+    <li>92) Παρέχουμε RP armored convoy escort</li>
+    <li>93) Παρέχουμε RP mission planning</li>
+    <li>94) Παρέχουμε RP VIP extraction protocols</li>
+    <li>95) Παρέχουμε RP tactical team coordination</li>
+    <li>96) Παρέχουμε RP threat assessment</li>
+    <li>97) Παρέχουμε RP field training</li>
+    <li>98) Παρέχουμε RP advanced combat drills</li>
+    <li>99) Παρέχουμε RP mission debriefs</li>
+    <li>100) Παρέχουμε RP full-service security solutions</li>
+  </ul>
+
+  <div class="jobs">
+    <h2>Αναζητούμε Προσωπικό</h2>
+    <p>Η Mythical Security ψάχνει άτομα <b>έτοιμα για τα πάντα</b>! Στείλε μύνημα σε εμένα στο discord στο όνομα 👑Λευτέρης👑.</p>
+    <button onclick="alert('Στείλε μύνημα σε εμένα στο discord στο όνομα 👑Λευτέρης👑!')">
+      Κάνε Αίτηση
+    </button>
+  </div>
+</body>
+</html>
